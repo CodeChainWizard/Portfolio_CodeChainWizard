@@ -32,7 +32,7 @@ export default function Form() {
     const toastId = toast.loading("Sending your message, please wait...");
 
     toast.info(
-      "Form submissions are demo-only here. Please checkout the final code repo to enable it. If you want to connect you can reach out to me via shubhamdanecha789@gmail.com.",
+      "Thank you for your message. I appreciate your interest in connecting. Please feel free to reach out to me via email at shubhamdanecha789@gmail.com. I look forward to hearing from you.",
       {
         id: toastId,
       }
@@ -134,7 +134,7 @@ export default function Form() {
               message: "Message should be less than 500 characters",
             },
             minLength: {
-              value: 50,
+              value: 3,
               message: "Message should be more than 50 characters",
             },
           })}

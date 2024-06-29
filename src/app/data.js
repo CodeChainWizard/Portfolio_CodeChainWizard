@@ -74,6 +74,7 @@ export const BtnList = [
   { label: "About", link: "/about", icon: "about", newTab: false },
   { label: "Projects", link: "/projects", icon: "projects", newTab: false },
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
+  { label: "Resume", link: "/resume", icon: "resume", newTab: false },
   {
     label: "Github",
     link: "https://github.com/CodeChainWizard",
